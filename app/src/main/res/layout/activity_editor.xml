@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditorActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/edit_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul"
+        android:autofillHints=""
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/edit_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kategori"
+        android:autofillHints=""
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/edit_isi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Isi"
+        android:autofillHints=""
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIMPAN"/>
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/bg_screen1"
+        android:text="KEMBALI"/>
+
+
+</LinearLayout>

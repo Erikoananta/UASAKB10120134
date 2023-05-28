@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.info.InfoFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar Menu"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="70dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/infoTitle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Menu Home \n2.Menu CRUD Catatan Harian \n3. Menu Info \n4. Menu Profile"
+        android:gravity="fill_horizontal"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/infoMenu" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tata Cara CRUD Catatan Harian"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/infoTitleTataCara" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Klik Tambah Data Untuk Menambah \n    Data. Isi data yang disediakan. dan \n    untuk waktunya otomatis tanggal \n    data tersebut dibuat. \n2.Jika ingin ubah atau hapus data. Tekan\n    data yang ingin diubah atau dihapus \n    lalu pilih opsi yang diiinginkan"
+        android:gravity="fill_horizontal"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/infoTataCara" />
+
+</FrameLayout>
