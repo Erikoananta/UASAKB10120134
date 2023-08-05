@@ -7,25 +7,25 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.tugasuts10120134.ui.home.HomeFragment"
+        android:name="com.example.UASAKB10120134.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_crud"
-        android:name="com.example.tugasuts10120134.ui.crud.CrudFragment"
+        android:name="com.example.UASAKB10120134.ui.crud.CrudFragment"
         android:label="Catatan"
         tools:layout="@layout/fragment_crud" />
 
     <fragment
         android:id="@+id/nav_profile"
-        android:name="com.example.tugasuts10120134.ui.profile.ProfileFragment"
+        android:name="com.example.UASAKB10120134.ui.profile.ProfileFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_profile" />
 
     <fragment
         android:id="@+id/nav_info"
-        android:name="com.example.tugasuts10120134.ui.info.InfoFragment"
+        android:name="com.example.UASAKB10120134.ui.info.InfoFragment"
         android:label="Info"
         tools:layout="@layout/fragment_info" />
 

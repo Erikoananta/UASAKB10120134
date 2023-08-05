@@ -20,7 +20,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="aplikasi ini dapat melakukan pendataan catatan harian, perubahan catatan harian, dan penghapusan catatan harian menggunakan sqlite\n"
+        android:text="Aplikasi ini dapat melakukan AUTENTIKASI baik dengan email maupun dengan google selanjutnya dapat melakukan CRUD dengan Realtime Database dimana setiap operasi akan muncul notifikasi \n"
         android:gravity="center"
         android:justificationMode="inter_word"
         android:textSize="30sp"
@@ -41,7 +41,7 @@
         android:layout_marginTop="550dp"
         android:layout_marginEnd="40dp"
         android:backgroundTint="@color/teal_200"
-        android:text="Langsung Menuju Menu Utama"
+        android:text="Langsung Menuju Menu Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
